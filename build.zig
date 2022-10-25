@@ -22,6 +22,7 @@ pub fn build(b: *std.build.Builder) !void {
         .{ .name = "triangle" },
         .{ .name = "triangle-msaa" },
         .{ .name = "boids" },
+        .{ .name = "gamepad" },
         .{ .name = "rotating-cube", .deps = &.{Packages.zmath} },
         .{ .name = "pixel-post-process", .deps = &.{Packages.zmath} },
         .{ .name = "two-cubes", .deps = &.{Packages.zmath} },
